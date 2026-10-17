@@ -1,12 +1,23 @@
+
+<!--
+  Student: Maria Albano
+  Course: Introduction to Computer Science
+  Page: Home
+  Purpose: Introduce myself, my education, and my cybersecurity career goals.
+  AI Assistance: Used to help improve the page layout,
+  organize the HTML structure, and review code.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Maria Albano | Cybersecurity Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+
     <!-- This connects my website to the CSS file that controls its appearance. -->
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+  
   </head>
   <body>
     <!-- These links help visitors move between my website pages. -->
@@ -16,7 +27,29 @@
   <a href="policy.html">Policy</a>
 </nav>
     <main>
-      <h1>Maria Albano - Cybersecurity Portfolio</h1>
+      
+<!-- AI helped improve the layout by grouping my portrait and introduction. -->
+<section class="hero">
+<img
+  src="maria-profile.png"
+  alt="Professional portrait of Maria Albano"
+  class="profile-photo"
+
+/>
+
+<div class="hero-text">
+  <p class="intro-name">MARIA ALBANO</p>
+  <h1>Precision in Digital Security</h1>
+  
+<!-- Introduces my cybersecurity interests and professional goals. -->
+<p class="hero-subtitle">
+  Cybersecurity | Incident Response | Digital Forensics
+</p>
+
+</div>
+</section>
+
+<section class="about">
       <!-- This section introduces me to visitors. -->
 <h2>About Me</h2>
 <p>
@@ -33,7 +66,11 @@
   in Security Operations Center (SOC) operations, advance into
   incident response, and eventually pursue digital forensics.
 </p>
+</section>
+
 <!-- This section shows my education and certifications. -->
+<section class="education">
+<h2>Education &amp; Certifications</h2>
 <h3>American International College</h3>
 <p>Bachelor of Science in Cybersecurity - Expected May 2027</p>
 
@@ -42,13 +79,19 @@
 Cybersecurity, May 2025</p>
 <h3>Professional Certifications</h3>
 <p>CompTIA Security+ (SY0-701) - Certified May 2026</p>
-<!-- These links let visitors see my professional profiles and projects. -->
-<h2>Professional Links</h2>
+</section>
 
+<!-- These links let visitors see my professional profiles and projects. -->
+<section class="professional-links">
+<h2>Professional Links</h2>
 <p>
-  <a href="https://github.com/Albano277" target="_blank">
-    My GitHub Profile
-  </a>
+
+<a href="https://github.com/Albano277"
+   target="_blank"
+   rel="noopener noreferrer">
+  My GitHub Profile
+</a>
+  
   <!-- AI helped me add a line break to display my professional links on separate lines. -->
   <br>
   <a href="https://www.linkedin.com/in/maria-albano-5588b7321/"
@@ -57,6 +100,8 @@ Cybersecurity, May 2025</p>
   My LinkedIn Profile
 </a>
 </p>
+</section>
+
     </main>
    <!-- This footer displays my contact email and copyright information. -->
 <footer>
