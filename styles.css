@@ -246,7 +246,7 @@ h1 {
   main {
     padding: 2rem 1rem;
   }
-
+/* Adds spacing below the main policy heading. */
   .policy-feature {
     padding: 2rem;
   }
